@@ -1,0 +1,30 @@
+{
+  "name": "book-app",
+  "version": "1.0.0",
+  "description": "online library",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup -c --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yzzze333/Book-app.git"
+  },
+  "keywords": [
+    "books"
+  ],
+  "author": "Anton K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yzzze333/Book-app/issues"
+  },
+  "homepage": "https://github.com/yzzze333/Book-app#readme",
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "eslint": "^8.57.0",
+    "rollup": "^4.12.0",
+    "rollup-plugin-import-css": "^3.5.0"
+  }
+}
